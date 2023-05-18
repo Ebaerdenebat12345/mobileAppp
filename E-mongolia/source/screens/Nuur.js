@@ -48,8 +48,10 @@ export default function Nuur() {
           <View style={styles.vw2}>
             <View style={styles.vw3}>
               <View style={styles.vw5}>
-                <Text>Хот хоорондын авто замын хураамж төлөх</Text>
-                <Text>Зам ашигласны төлбөр</Text>
+                <Text style={styles.t}>
+                  Хот хоорондын авто замын хураамж төлөх
+                </Text>
+                <Text style={styles.tt}>Зам ашигласны төлбөр</Text>
               </View>
               <Image
                 style={styles.n}
@@ -58,8 +60,8 @@ export default function Nuur() {
             </View>
             <View style={styles.zuraas}></View>
             <View style={styles.vw4}>
-              <Ionicons name="car-outline" />
-              <Text>Үйлчилгээ авах</Text>
+              <Ionicons style={styles.car} name="car-outline" />
+              <Text style={styles.ttt}>Үйлчилгээ авах</Text>
             </View>
           </View>
         </View>
@@ -154,13 +156,41 @@ const styles = StyleSheet.create({
   },
   vw4: {
     flexDirection: "row",
+    alignItems: "center",
+    marginTop: 5,
   },
   vw5: {
-    width: 220,
+    width: 250,
   },
   n: {
     width: 80,
     height: 70,
+    marginTop: 35,
   },
-  zuraas: {},
+  zuraas: {
+    borderBottomWidth: 1.5,
+    borderColor: "#f2f4f5",
+  },
+  t: {
+    color: "#072461",
+    fontWeight: "700",
+    fontSize: 16,
+    marginTop: 15,
+    marginLeft: 15,
+  },
+  tt: {
+    color: "#b8c1c2",
+    marginLeft: 15,
+    marginTop: 8,
+  },
+  car: {
+    color: "red",
+    fontSize: 25,
+    marginLeft: 15,
+  },
+  ttt: {
+    color: "#072461",
+    fontWeight: "500",
+    marginLeft: 8,
+  },
 });
