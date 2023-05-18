@@ -351,7 +351,7 @@ const styles = StyleSheet.create({
     marginLeft: 15,
   },
   tt: {
-    color: "#b8c1c2",
+    color: "#072461",
     marginLeft: 15,
     marginTop: 8,
   },
