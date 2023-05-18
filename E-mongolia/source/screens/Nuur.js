@@ -12,6 +12,7 @@ import {
   MaterialCommunityIcons,
   Octicons,
   Ionicons,
+  AntDesign,
 } from "@expo/vector-icons";
 
 export default function Nuur() {
@@ -62,6 +63,177 @@ export default function Nuur() {
             <View style={styles.vw4}>
               <Ionicons style={styles.car} name="car-outline" />
               <Text style={styles.ttt}>Үйлчилгээ авах</Text>
+            </View>
+          </View>
+          <Text style={styles.tanid}>Таньд зориулсан</Text>
+          <View style={styles.scll}>
+            <ScrollView
+              horizontal={true}
+              showsHorizontalScrollIndicator={false}
+            >
+              <View style={styles.vw6}>
+                <Text style={styles.d}>
+                  Дээд боловсролын сургалтын байгууллагын дипломын тодорхойлолт
+                </Text>
+                <View style={styles.vw7}>
+                  <View style={styles.vw8}>
+                    <Text style={styles.s}>Лавлагаа</Text>
+                  </View>
+                  <Text style={styles.ss}>Төлбөргүй</Text>
+                  <AntDesign style={styles.sss} name="right" />
+                </View>
+              </View>
+              <View style={styles.vw6}>
+                <Text style={styles.d}>
+                  Авто тээврийн хэрэгсэл болон жолоочийн торгуулийн төлбөр төлөх
+                </Text>
+                <View style={styles.vw7}>
+                  <View style={styles.vw8}>
+                    <Text style={styles.s}>Лавлагаа</Text>
+                  </View>
+                  <Text style={styles.ss}>Төлбөргүй</Text>
+                  <AntDesign style={styles.sss} name="right" />
+                </View>
+              </View>
+              <View style={styles.vw6}>
+                <Text style={styles.d}>
+                  Иргэний эрүүгийн хариуцлага хүлээж байгаа эсэх тухай
+                  тодорхойлолт
+                </Text>
+                <View style={styles.vw7}>
+                  <View style={styles.vw8}>
+                    <Text style={styles.s}>Лавлагаа</Text>
+                  </View>
+                  <Text style={styles.ss}>Төлбөргүй</Text>
+                  <AntDesign style={styles.sss} name="right" />
+                </View>
+              </View>
+              <View style={styles.vw6}>
+                <Text style={styles.d}>
+                  Нийгмийн даатгалын шимтгэл төлөлтийн талаарх тодорхойлолт
+                </Text>
+                <View style={styles.vw7}>
+                  <View style={styles.vw8}>
+                    <Text style={styles.s}>Лавлагаа</Text>
+                  </View>
+                  <Text style={styles.ss}>Төлбөргүй</Text>
+                  <AntDesign style={styles.sss} name="right" />
+                </View>
+              </View>
+            </ScrollView>
+          </View>
+          <View style={styles.vw9}>
+            <Text style={styles.tanid}>Ажил бүтээхэд тань тусалъя</Text>
+            <Text style={styles.bugd}>Бүгд</Text>
+            <AntDesign style={styles.icon} name="arrowright" />
+          </View>
+          <View style={styles.scrolll}>
+            <ScrollView
+              horizontal={true}
+              showsHorizontalScrollIndicator={false}
+            >
+              <View style={styles.vw10}>
+                <Text style={styles.b}>Бичиг баримт гээсэн</Text>
+                <Image
+                  style={styles.gif}
+                  source={require("../../source/images/bag.gif")}
+                />
+              </View>
+              <View style={styles.vw11}>
+                <Text style={styles.b}>Жолооч танд</Text>
+                <Image
+                  style={styles.gif}
+                  source={require("../../source/images/car.gif")}
+                />
+              </View>
+              <View style={styles.vw12}>
+                <Text style={styles.b}>Гэр бүл зохиох</Text>
+                <Image
+                  style={styles.gif}
+                  source={require("../../source/images/family.gif")}
+                />
+              </View>
+              <View style={styles.vw13}>
+                <Text style={styles.b}>Хүүхэдтэй болсон</Text>
+                <Image
+                  style={styles.gif}
+                  source={require("../../source/images/baby.gif")}
+                />
+              </View>
+              <View style={styles.vw14}>
+                <Text style={styles.b}>Аялалд явахаар төлөвлөж байгаа</Text>
+                <Image
+                  style={styles.gif}
+                  source={require("../../source/images/world.gif")}
+                />
+              </View>
+              <View style={styles.vw15}>
+                <Text style={styles.b}>Орон сууц худалдан авсан</Text>
+                <Image
+                  style={styles.gif}
+                  source={require("../../source/images/keys.gif")}
+                />
+              </View>
+            </ScrollView>
+          </View>
+          <Text style={styles.tanid}>Эрэлттэй үйлчилгээ</Text>
+          <View style={styles.vw16}>
+            <Text style={styles.ntxt}>Нийгмийн хамгаалал</Text>
+            <Text style={styles.nn}>
+              Дээд боловсролын сургалтын байгууллагын дипломын тодорхойлолт
+            </Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.vw16}>
+            <Text style={styles.ntxt}>КОВИД-19</Text>
+            <Text style={styles.nn}>Вакцины гэрчилгээ</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.vw16}>
+            <Text style={styles.ntxt}>Иргэний улсын бүртгэл</Text>
+            <Text style={styles.nn}>
+              Иргэний оршин суугаа газрын хаягийн бүртгэлийн лавлагаа
+            </Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.vw16}>
+            <Text style={styles.ntxt}>Иргэний улсын бүртгэл</Text>
+            <Text style={styles.nn}>Иргэний үнэмлэхийн лавлагаа</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.vw16}>
+            <Text style={styles.ntxt}>Жолоодох эрх, тээврийн хэрэгсэл</Text>
+            <Text style={styles.nn}>Жолоочийн лавлагаа, мэдээлэл</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
             </View>
           </View>
         </View>
@@ -139,7 +311,7 @@ const styles = StyleSheet.create({
   view3: {
     backgroundColor: "#f2f4f5",
     width: "100%",
-    height: 1000,
+    height: 1700,
     borderRadius: 20,
     marginTop: 25,
   },
@@ -148,7 +320,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: 340,
     height: 150,
-    marginLeft: 20,
+    marginLeft: 16,
     marginTop: 20,
   },
   vw3: {
@@ -192,5 +364,163 @@ const styles = StyleSheet.create({
     color: "#072461",
     fontWeight: "500",
     marginLeft: 8,
+  },
+  tanid: {
+    color: "#2818a0",
+    fontWeight: "600",
+    fontSize: 15,
+    margin: 16,
+  },
+  vw6: {
+    backgroundColor: "white",
+    width: 310,
+    height: 150,
+    borderRadius: 15,
+    marginTop: 5,
+    marginLeft: 16,
+  },
+  d: {
+    color: "#072461",
+    fontWeight: "600",
+    fontSize: 16,
+    marginTop: 20,
+    marginLeft: 30,
+  },
+  vw7: {
+    flexDirection: "row",
+    marginTop: 23,
+    alignItems: "center",
+  },
+  vw8: {
+    backgroundColor: "#f2f4f5",
+    width: 70,
+    height: 25,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 7,
+    marginLeft: 20,
+  },
+  s: {
+    color: "blue",
+    fontSize: 12,
+    fontWeight: "500",
+  },
+  ss: {
+    color: "#072461",
+    fontWeight: "500",
+    marginLeft: 110,
+    fontSize: 13,
+  },
+  sss: {
+    color: "#072461",
+    fontWeight: "500",
+    marginLeft: 5,
+    fontSize: 13,
+  },
+  scll: {
+    height: 170,
+    flexDirection: "row",
+  },
+  vw9: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  bugd: {
+    color: "#708aa2",
+    marginLeft: 60,
+  },
+  icon: {
+    color: "#708aa2",
+    fontSize: 15,
+    marginLeft: 7,
+  },
+  scrolll: {
+    height: 250,
+    flexDirection: "row",
+    marginTop: 12,
+  },
+  vw10: {
+    width: 150,
+    height: 230,
+    borderRadius: 15,
+    backgroundColor: "#ffd966",
+    alignItems: "center",
+    marginLeft: 16,
+  },
+  b: {
+    color: "white",
+    fontWeight: "700",
+    marginTop: 15,
+    fontSize: 12,
+  },
+  gif: {
+    width: 130,
+    height: 130,
+    borderRadius: 30,
+    marginTop: 45,
+  },
+  vw11: {
+    width: 150,
+    height: 230,
+    borderRadius: 15,
+    backgroundColor: "#a64da2",
+    alignItems: "center",
+    marginLeft: 8,
+  },
+  vw12: {
+    width: 150,
+    height: 230,
+    borderRadius: 15,
+    backgroundColor: "#f44336",
+    alignItems: "center",
+    marginLeft: 8,
+  },
+  vw13: {
+    width: 150,
+    height: 230,
+    borderRadius: 15,
+    backgroundColor: "#11138d",
+    alignItems: "center",
+    marginLeft: 8,
+  },
+  vw14: {
+    width: 150,
+    height: 230,
+    borderRadius: 15,
+    backgroundColor: "#69e831",
+    alignItems: "center",
+    marginLeft: 8,
+  },
+  vw15: {
+    width: 150,
+    height: 230,
+    borderRadius: 15,
+    backgroundColor: "#f36ae1",
+    alignItems: "center",
+    marginLeft: 8,
+  },
+  vw16: {
+    backgroundColor: "white",
+    width: "100%",
+    height: 150,
+    marginTop: 10,
+  },
+  ntxt: {
+    color: "#708aa2",
+    marginTop: 15,
+    marginLeft: 30,
+  },
+  nn: {
+    color: "#072461",
+    fontWeight: "600",
+    fontSize: 16,
+    marginTop: 10,
+    marginLeft: 30,
+  },
+  nnn: {
+    color: "#072461",
+    fontWeight: "500",
+    marginLeft: 180,
+    fontSize: 13,
   },
 });
