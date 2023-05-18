@@ -137,6 +137,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     marginLeft: 10,
     marginTop: 15,
+    alignItems: "center",
   },
   menu: {
     color: "white",
