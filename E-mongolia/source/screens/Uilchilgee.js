@@ -42,9 +42,83 @@ export default function Uilchilgee() {
             <Text style={styles.aaa}>Шүүж хайх:</Text>
             <View style={styles.vw3}>
               <View style={styles.vw4}>
-                <Text>Ангилал</Text>
-                <AntDesign name="down" />
+                <Text style={styles.d}>Ангилал</Text>
+                <AntDesign style={styles.dd} name="down" />
               </View>
+              <View style={styles.vw4}>
+                <Text style={styles.d}>Төрөл</Text>
+                <AntDesign style={styles.dd} name="down" />
+              </View>
+              <View style={styles.vw4}>
+                <Text style={styles.d}>Байгууллага</Text>
+                <AntDesign style={styles.dd} name="down" />
+              </View>
+            </View>
+          </View>
+          <View style={styles.view3}>
+            <Text style={styles.ntxt}>Жолоодох эрх, тээврийн хэрэгсэл</Text>
+            <Text style={styles.nn}>Жолоочийн лавлагаа, мэдээлэл</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.view4}>
+            <Text style={styles.ntxt}>Жолоодох эрх, тээврийн хэрэгсэл</Text>
+            <Text style={styles.nn}>Жолоочийн лавлагаа, мэдээлэл</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.view4}>
+            <Text style={styles.ntxt}>Жолоодох эрх, тээврийн хэрэгсэл</Text>
+            <Text style={styles.nn}>Жолоочийн лавлагаа, мэдээлэл</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.view4}>
+            <Text style={styles.ntxt}>Жолоодох эрх, тээврийн хэрэгсэл</Text>
+            <Text style={styles.nn}>Жолоочийн лавлагаа, мэдээлэл</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.view4}>
+            <Text style={styles.ntxt}>Жолоодох эрх, тээврийн хэрэгсэл</Text>
+            <Text style={styles.nn}>Жолоочийн лавлагаа, мэдээлэл</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
+            </View>
+          </View>
+          <View style={styles.view4}>
+            <Text style={styles.ntxt}>Жолоодох эрх, тээврийн хэрэгсэл</Text>
+            <Text style={styles.nn}>Жолоочийн лавлагаа, мэдээлэл</Text>
+            <View style={styles.vw7}>
+              <View style={styles.vw8}>
+                <Text style={styles.s}>Лавлагаа</Text>
+              </View>
+              <Text style={styles.nnn}>Төлбөргүй</Text>
+              <AntDesign style={styles.sss} name="right" />
             </View>
           </View>
         </View>
@@ -118,7 +192,7 @@ const styles = StyleSheet.create({
   },
   vw1: {
     backgroundColor: "white",
-    height: 100,
+    height: 130,
   },
   vw2: {
     flexDirection: "row",
@@ -129,15 +203,93 @@ const styles = StyleSheet.create({
   },
   vw4: {
     flexDirection: "row",
+    backgroundColor: "#e5edef",
+    width: 110,
+    height: 30,
+    borderRadius: 3,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 6,
+    marginLeft: 12,
   },
   a: {
     color: "blue",
     fontWeight: "600",
+    marginLeft: 15,
+    marginTop: 20,
   },
   aa: {
     color: "blue",
+    marginLeft: 170,
+    marginTop: 35,
+    fontSize: 20,
   },
   aaa: {
     color: "#598bba",
+    fontSize: 12,
+    marginLeft: 15,
+    marginTop: 8,
+  },
+  d: {
+    color: "blue",
+  },
+  dd: {
+    color: "#9fc5e8",
+    marginLeft: 5,
+  },
+  view3: {
+    backgroundColor: "white",
+    width: "100%",
+    height: 130,
+    marginTop: 1.5,
+  },
+  ntxt: {
+    color: "#708aa2",
+    marginTop: 15,
+    marginLeft: 30,
+  },
+  nn: {
+    color: "#072461",
+    fontWeight: "600",
+    fontSize: 16,
+    marginTop: 10,
+    marginLeft: 30,
+  },
+  nnn: {
+    color: "#072461",
+    fontWeight: "500",
+    marginLeft: 180,
+    fontSize: 13,
+  },
+  vw7: {
+    flexDirection: "row",
+    marginTop: 23,
+    alignItems: "center",
+  },
+  vw8: {
+    backgroundColor: "#f2f4f5",
+    width: 70,
+    height: 25,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 7,
+    marginLeft: 20,
+  },
+  s: {
+    color: "blue",
+    fontSize: 12,
+    fontWeight: "500",
+  },
+  sss: {
+    color: "#072461",
+    fontWeight: "500",
+    marginLeft: 5,
+    fontSize: 13,
+  },
+  view4: {
+    backgroundColor: "white",
+    width: "100%",
+    height: 130,
+    marginTop: 10,
   },
 });
