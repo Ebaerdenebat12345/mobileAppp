@@ -24,7 +24,12 @@ export default function Shiljih({ navigation }) {
         <Text style={styles.u}>Үйлчилгээ авах</Text>
       </View>
       <Text style={styles.c}>Үйлчилгээний тухай</Text>
-      <Text>Аймаг нийслэлийн автозамаар зорьчсон тээврийн хэрэгсэлийн </Text>
+      <View style={styles.v}>
+        <Text style={styles.vv}>
+          Аймаг нийслэлийн автозамаар зорьчсон тээврийн хэрэгсэлийн замыни
+          хураамжийн төлбөрийг цахимаар төлөх боломжийг бүрдүүлэх юм.
+        </Text>
+      </View>
     </SafeAreaView>
   );
 }
@@ -110,5 +115,14 @@ const styles = StyleSheet.create({
     fontSize: 15,
     marginLeft: 20,
     marginTop: 40,
+  },
+  v: {
+    alignItems: "center",
+    justifyContent: "center",
+    margin: 15,
+  },
+  vv: {
+    color: "#2a3e8f",
+    fontSize: 13,
   },
 });
