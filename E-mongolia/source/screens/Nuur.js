@@ -5,6 +5,7 @@ import {
   StyleSheet,
   Image,
   ScrollView,
+  Pressable,
 } from "react-native";
 import React from "react";
 import {
@@ -15,7 +16,7 @@ import {
   AntDesign,
 } from "@expo/vector-icons";
 
-export default function Nuur() {
+export default function Nuur({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.view1}>
@@ -46,25 +47,28 @@ export default function Nuur() {
           </View>
         </View>
         <View style={styles.view3}>
-          <View style={styles.vw2}>
-            <View style={styles.vw3}>
-              <View style={styles.vw5}>
-                <Text style={styles.t}>
-                  Хот хоорондын авто замын хураамж төлөх
-                </Text>
-                <Text style={styles.tt}>Зам ашигласны төлбөр</Text>
+          <Pressable onPress={() => navigation.navigate("shiljih")}>
+            <View style={styles.vw2}>
+              <View style={styles.vw3}>
+                <View style={styles.vw5}>
+                  <Text style={styles.t}>
+                    Хот хоорондын авто замын хураамж төлөх
+                  </Text>
+                  <Text style={styles.tt}>Зам ашигласны төлбөр</Text>
+                </View>
+                <Image
+                  style={styles.n}
+                  source={require("../../source/images/n.jpg")}
+                />
               </View>
-              <Image
-                style={styles.n}
-                source={require("../../source/images/n.jpg")}
-              />
+              <View style={styles.zuraas}></View>
+              <View style={styles.vw4}>
+                <Ionicons style={styles.car} name="car-outline" />
+                <Text style={styles.ttt}>Үйлчилгээ авах</Text>
+              </View>
             </View>
-            <View style={styles.zuraas}></View>
-            <View style={styles.vw4}>
-              <Ionicons style={styles.car} name="car-outline" />
-              <Text style={styles.ttt}>Үйлчилгээ авах</Text>
-            </View>
-          </View>
+          </Pressable>
+
           <Text style={styles.tanid}>Таньд зориулсан</Text>
           <View style={styles.scll}>
             <ScrollView

@@ -8,6 +8,7 @@ import Uilchilgee from "./source/screens/Uilchilgee";
 import Huseltuud from "./source/screens/Huseltuud";
 import Email from "./source/screens/Email";
 import Profile from "./source/screens/Profile";
+import Shiljih from "./source/screens/Shiljih";
 
 const HomeStack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -25,6 +26,7 @@ function HomeStackNavigation() {
       <HomeStack.Screen name="add" component={Huseltuud} />
       <HomeStack.Screen name="real" component={Email} />
       <HomeStack.Screen name="profile" component={Profile} />
+      <HomeStack.Screen name="shiljih" component={Shiljih} />
     </HomeStack.Navigator>
   );
 }
