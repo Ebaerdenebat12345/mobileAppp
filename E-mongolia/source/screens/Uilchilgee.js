@@ -36,10 +36,10 @@ export default function Uilchilgee() {
         <View style={styles.view2}>
           <View style={styles.vw1}>
             <View style={styles.vw2}>
-              <Text>Нийт 165 үйлчилгээ</Text>
-              <AntDesign name="sync" />
+              <Text style={styles.a}>Нийт 165 үйлчилгээ</Text>
+              <AntDesign style={styles.aa} name="sync" />
             </View>
-            <Text>Шүүж хайх:</Text>
+            <Text style={styles.aaa}>Шүүж хайх:</Text>
             <View style={styles.vw3}>
               <View style={styles.vw4}>
                 <Text>Ангилал</Text>
@@ -129,5 +129,15 @@ const styles = StyleSheet.create({
   },
   vw4: {
     flexDirection: "row",
+  },
+  a: {
+    color: "blue",
+    fontWeight: "600",
+  },
+  aa: {
+    color: "blue",
+  },
+  aaa: {
+    color: "#598bba",
   },
 });
